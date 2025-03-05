@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shalimar&family=Slackey&display=swap');
+header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
+    background-color:#F5E8DD; 
+}
+.Logo {
+    max-width: 120px; 
+    height: auto;
+    background-color:#F5E8DD; 
+}
+#A1{
+  font-size:20px;  
+}
+.navbar {
+    flex-grow: 1; 
+    margin-left: 20px; 
+}
+.navbar-toggler{
+    background-color:#F5E8DD;
+}
+.nav-item  {
+  color: black;
+  margin-right: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-item :hover {
+  color: grey; 
+  top: 50%;
+}
+.nav-item a img {
+  margin-right: 20px; 
+  width: 30px; 
+  height: auto;
+}
+.section {
+  width: 100%;
+  max-width: 1200px; 
+  margin: 0 auto 50px; 
+  text-align: center; 
+}
+/* Ajustamos las imágenes */
+.card img {
+  width: 100%;
+  height: auto;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 350px; 
+  object-fit: cover; 
+}
+.card:hover {
+    box-shadow: 0 9px 18px black;
+}
+/* Tarjetas flotantes */
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card .card-text {
+  font-size: 1rem;
+  text-align:justify;
+}
+
+/* Estilo para las imágenes de las tarjetas */
+.card img {
+  border-radius: 8px;
+}
+.vaca{
+  text-align: center;
+  background-color:#e8f4db; 
+  padding: 20px;
+  font-size:21px;
+  font-family:Abel;  
+}
+/* Estilos del pie de página */
+.footer {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;  
+    padding: 10px;
+    background-color:;
+}
+.info de pie{
+    text-align: center;
+    font-size: 50px; 
+}
+.social-icons{
+    border: none;
+}
+.nombre{
+    color:black;
+}
+
